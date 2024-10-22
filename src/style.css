@@ -20,7 +20,7 @@
 img {
   width: 20%;
   /* Set the width to 50% of the parent container */
-  height: auto;
+  height: 20%;
   /* Maintain aspect ratio to prevent stretching */
   max-width: 100%;
   /* Ensure the image doesn't go beyond the screen width */
