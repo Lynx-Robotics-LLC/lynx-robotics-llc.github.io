@@ -18,7 +18,7 @@
 
 /* Resize the image to 50% of its original size */
 img {
-  width: 50%;
+  width: 20%;
   /* Set the width to 50% of the parent container */
   height: auto;
   /* Maintain aspect ratio to prevent stretching */
