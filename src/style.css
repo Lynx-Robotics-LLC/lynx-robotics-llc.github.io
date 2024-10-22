@@ -2,4 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+/* Define the background color */
+.bg-color {
+  background-color: #000c37;
+  /* Dark blue */
+}
+
+/* Example style for primary button color */
+.bg-primary {
+  background-color: #1a73e8;
+  /* You can adjust this color */
+}
+
+/* Resize the image to 50% of its original size */
+img {
+  width: 20%;
+  /* Set the width to 50% */
+  height: auto;
+  /* Adjust the height automatically to maintain aspect ratio */
+}
+
+/* Change "Coming Soon" text color to dark orange */
+h1 {
+  color: #edb000;
+  /* Dark orange color */
+}
+
+/* Remove shadow from the button */
+button {
+  box-shadow: none !important;
+  /* Forcefully removes the shadow */
+  transition: none !important;
+  /* Removes any shadow on hover */
+}
