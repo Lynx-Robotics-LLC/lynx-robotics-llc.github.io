@@ -1,5 +1,5 @@
 /* Background video styling */
-#backgroundVideo {
+/* #backgroundVideo {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -10,6 +10,20 @@
   z-index: -1;
   background-size: cover;
   overflow: hidden;
+} */
+#backgroundVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  object-fit: cover;
+  /* Ensures the video covers the entire screen without distortion */
+  background-size: cover;
 }
 
 /* Ensure content stays on top of the video */
