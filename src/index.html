@@ -6,13 +6,21 @@
   <meta property="og:title" content="Under construction">
   <meta property="og:image" content="https://github.com/hendrikdemir/under-construction-template/raw/main/demo.jpg">
   <title>Under construction</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS -->
 </head>
 
 <body class="bg-color">
-  <div class="container mx-auto h-screen grid content-center px-5 sm:px-0">
+
+  <!-- Video background -->
+  <video autoplay muted loop id="backgroundVideo">
+    <source src="assemline-robot.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="container mx-auto h-screen grid content-center px-5 sm:px-0 relative z-10">
     <div class="grid gap-5 justify-items-center text-center">
       <img class="h-fit">
-      <h1 class="font-serif text-4xl font-semibold">LYNX Robotics</h1>
+      <!-- <h1 class="font-serif text-4xl font-semibold">LYNX Robotics</h1> -->
       <p class="font-sans text-gray-400 text-lg tracking-wide">This website is under construction, come back soon!</p>
 
       <!-- Email subscription form -->
@@ -55,6 +63,7 @@
         });
     });
   </script>
+
 </body>
 
 </html>
